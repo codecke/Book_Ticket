@@ -2,6 +2,7 @@
 
 import 'package:book_ticket/Screens/home_screen.dart';
 import 'package:book_ticket/Screens/hotel_screen.dart';
+import 'package:book_ticket/Screens/profile_screen.dart';
 import 'package:book_ticket/Screens/search_screen.dart';
 import 'package:book_ticket/Screens/ticket_screen.dart';
 import 'package:book_ticket/utils/app_info_list.dart';
@@ -22,7 +23,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text('Profile'),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
